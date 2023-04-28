@@ -11,7 +11,7 @@ const subtractBtn = document.getElementById("subtractBtn");
 const multiplyBtn = document.getElementById("multiplyBtn");
 const divideBtn = document.getElementById("divideBtn");
 
-
+//initialization 
 window.onload = init;
 
 
@@ -25,6 +25,7 @@ divideBtn.onclick = onDivisionBtnClicked;
 
 };
 
+//Functionality for the calculation buttons
 
 function onAddBtnClicked(){
     let sum = Number(number1Field.value) + Number(number2Field.value);
